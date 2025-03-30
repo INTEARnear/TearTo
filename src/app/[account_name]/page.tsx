@@ -55,7 +55,7 @@ export default function TipPage({ params }: { params: Promise<{ account_name: st
           router.push('/');
           return;
         }
-      } catch (error) {
+      } catch {
         router.push('/');
         return;
       }
